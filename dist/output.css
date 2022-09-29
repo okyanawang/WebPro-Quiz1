@@ -1153,11 +1153,6 @@ input:checked + .toggle-bg {
   margin-right: auto;
 }
 
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -1284,10 +1279,6 @@ input:checked + .toggle-bg {
 
 .max-w-xl {
   max-width: 36rem;
-}
-
-.max-w-\[120px\] {
-  max-width: 120px;
 }
 
 .flex-1 {
@@ -1511,11 +1502,6 @@ input:checked + .toggle-bg {
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
-.bg-slate-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
-}
-
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
@@ -1616,11 +1602,6 @@ input:checked + .toggle-bg {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .px-2 {
@@ -1785,10 +1766,6 @@ input:checked + .toggle-bg {
   color: rgb(28 100 242 / var(--tw-text-opacity));
 }
 
-.opacity-60 {
-  opacity: 0.6;
-}
-
 .opacity-0 {
   opacity: 0;
 }
@@ -1815,11 +1792,6 @@ input:checked + .toggle-bg {
 
 .blur {
   --tw-blur: blur(8px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.grayscale {
-  --tw-grayscale: grayscale(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -1967,19 +1939,10 @@ body {
   opacity: 0.8;
 }
 
-.hover\:opacity-100:hover {
-  opacity: 1;
-}
-
 .hover\:shadow-lg:hover {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:grayscale-0:hover {
-  --tw-grayscale: grayscale(0);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .focus\:border-primary:focus {
@@ -2159,11 +2122,6 @@ body {
     right: 0px;
   }
 
-  .lg\:mx-6 {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
-
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -2219,11 +2177,6 @@ body {
 }
 
 @media (min-width: 1280px) {
-  .xl\:mx-8 {
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-
   .xl\:w-1\/3 {
     width: 33.333333%;
   }
