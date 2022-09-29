@@ -7,11 +7,11 @@ const route = (event) => {
   };
   
   const routes = {
-    "/quis1": "/index.html",
-    "/quis1/profile": "/pages/profile.html",
-    "/quis1/hometown": "/pages/hometown.html",
-    "/quis1/food": "/pages/food.html",
-    "/quis1/tourist": "/pages/tourist.html",
+    "/quis1": "../index.html",
+    "/quis1/profile": "../pages/profile.html",
+    "/quis1/hometown": "../pages/hometown.html",
+    "/quis1/food": "../pages/food.html",
+    "/quis1/tourist": "../pages/tourist.html",
   };
   
   const handleLocation = async () => {
