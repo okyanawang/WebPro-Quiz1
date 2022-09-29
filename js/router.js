@@ -7,13 +7,12 @@ const route = (event) => {
 };
 
 const routes = {
-  404: "/pages/404.html",
-  "/": "/pages/home/index.html",
-  "/quis1": "/pages/home/index.html",
-  "/quis1/profile": "/pages/profile/index.html",
-  "/quis1/hometown": "/pages/hometown/index.html",
-  "/quis1/food": "/pages/food/index.html",
-  "/quis1/tourist": "/pages/tourist/index.html",
+  "/": "/index.html",
+  "/quis1": "/index.html",
+  "/quis1/profile": "/pages/index.html",
+  "/quis1/hometown": "/pages/index.html",
+  "/quis1/food": "/pages/index.html",
+  "/quis1/tourist": "/pages/index.html",
 };
 
 const handleLocation = async () => {
